@@ -16,6 +16,10 @@ Vá para
 
 apague os arquivos: ***retry , retry.lockfile , wait-remote_smtp, wait-remote_smtp.lockfile***
 
+```
+cd /var/spool/exim/db && rm -rf retry retry.lockfile wait-remote_smtp wait-remote_smtp.lockfile wait-dkim_remote_smtp wait-dkim_remote_smtp.lockfile && ls
+```
+
 reinicie o exim
 
 Talvez você tambem tenha que deletar os arquivos das pastas abaixo:
